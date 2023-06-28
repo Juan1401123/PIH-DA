@@ -1,6 +1,13 @@
 # PIH-DAProyecto de Análisis de Accidentes Aéreos
 Este proyecto tiene como objetivo analizar y mejorar la seguridad de los vuelos mediante el análisis de una base de datos de accidentes aéreos. El conjunto de datos proporciona información detallada sobre los accidentes, incluyendo el año del accidente, la ruta tomada, la aerolínea, el modelo del avión, la cantidad de fallecidos y las personas a bordo.
 
+Proceso de Desarrollo
+Para iniciar se realizo un largo proceso de ETL con el objetivo de hacer mas accesible la información y normalizar ciertas columnas para que la información sea mas precisa, se detectaron outliers y finalmente se unifico todo en una única tabla (ETL-EDA.ipynb).
+
+En el proceso de Análisis Exploratorio(EDA) se compararon los números de fallecidos con las distintas columnas y valores que categorizaban los eventos(Fecha|Aerolinea|Avion|Ruta), con el fin de encontrar relaciones directas , indirectas o inversas entre valores y categorías con la cantidad de fallecidos o proporción de fallecidos  con respecto al total de supervivientes que era el dato que nos interesa reducir.
+
+Para concluir se realizo un dashboard en powerBi con el cual se mostraron las relaciones entre estas categorías ya mencionadas(Fecha|Aerolinea|Avion|Ruta) y el numero-proporción de fallecidos
+
 Objetivos
 Analizar la tendencia de los accidentes a lo largo del tiempo y establecer un índice de accidentes por año.
 Evaluar la supervivencia en los accidentes y calcular el índice de supervivencia.
