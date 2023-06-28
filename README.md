@@ -3,7 +3,7 @@ Este proyecto tiene como objetivo analizar y mejorar la seguridad de los vuelos 
 
 El proceso de desarrollo consta de tres partes importantes:
 
-Para iniciar se realizo un largo proceso de ETL con el objetivo de hacer mas accesible la información y normalizar ciertas columnas para que la información sea mas precisa, se detectaron outliers y finalmente se unifico todo en una única tabla (ETL-EDA.ipynb).
+Para iniciar se realizo un largo proceso de ETL con el objetivo de hacer mas accesible la información y normalizar ciertas columnas para que la información sea mas precisa, se detectaron outliers y finalmente se unifico todo en una tabla (ETL-EDA.ipynb).
 
 En el proceso de Análisis Exploratorio(EDA) se compararon los números de fallecidos con las distintas columnas y valores que categorizaban los eventos(Fecha|Aerolinea|Avion|Ruta), con el fin de encontrar relaciones directas , indirectas o inversas entre valores y categorías con la cantidad de fallecidos,que era el dato que nos interesa reducir.
 
