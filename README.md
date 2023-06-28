@@ -5,7 +5,7 @@ Proceso de Desarrollo consta de tres partes importantes:
 
 Para iniciar se realizo un largo proceso de ETL con el objetivo de hacer mas accesible la información y normalizar ciertas columnas para que la información sea mas precisa, se detectaron outliers y finalmente se unifico todo en una única tabla (ETL-EDA.ipynb).
 
-En el proceso de Análisis Exploratorio(EDA) se compararon los números de fallecidos con las distintas columnas y valores que categorizaban los eventos(Fecha|Aerolinea|Avion|Ruta), con el fin de encontrar relaciones directas , indirectas o inversas entre valores y categorías con la cantidad de fallecidos o proporción de fallecidos  con respecto al total de supervivientes que era el dato que nos interesa reducir.
+En el proceso de Análisis Exploratorio(EDA) se compararon los números de fallecidos con las distintas columnas y valores que categorizaban los eventos(Fecha|Aerolinea|Avion|Ruta), con el fin de encontrar relaciones directas , indirectas o inversas entre valores y categorías, con la cantidad de fallecidos que era el dato que nos interesa reducir.
 
 Para concluir se realizo un dashboard en powerBi con el cual se mostraron las relaciones entre estas categorías ya mencionadas(Fecha|Aerolinea|Avion|Ruta) y el numero-proporción de fallecidos
 
