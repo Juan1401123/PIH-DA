@@ -1,4 +1,4 @@
-# PIH-DAProyecto de Análisis de Accidentes Aéreos
+# PIH-DA-Proyecto de Análisis de Accidentes Aéreos
 Este proyecto tiene como objetivo analizar y mejorar la seguridad de los vuelos mediante el análisis de una base de datos de accidentes aéreos. El conjunto de datos proporciona información detallada sobre los accidentes, incluyendo el año del accidente, la ruta tomada, la aerolínea, el modelo del avión, la cantidad de fallecidos y las personas a bordo.
 
 El proceso de desarrollo consta de tres partes importantes:
